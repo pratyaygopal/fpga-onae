@@ -15,8 +15,8 @@ The gameplay simulates randomized animatronic spawns based on a user-selected se
 
 ## Demos
 
-- **YouTube Playthrough:** https://www.youtube.com/watch?v=f_VWFFdSquA  
-- **Showcase Demo:** https://www.youtube.com/watch?v=XwT2aaFxlOU
+- [**YouTube Playthrough:**](https://www.youtube.com/watch?v=f_VWFFdSquA)  
+- [**Showcase Demo:**](https://www.youtube.com/watch?v=XwT2aaFxlOU)
 
 ---
 
@@ -46,4 +46,4 @@ The gameplay simulates randomized animatronic spawns based on a user-selected se
 
 ## Documentation 
 
-- For more docs: [report] (./fnaf.pdf)
+- For more docs: [report](./fnaf.pdf)
