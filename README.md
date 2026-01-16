@@ -42,5 +42,8 @@ The gameplay simulates randomized animatronic spawns based on a user-selected se
    - Open the project in **Vivado** and **Vitis**.
    - Program and run on the target FPGA board.
 
--  **Visual Mode**
-   - The “flashy rainbow lights” mode makes the game harder and **may trigger photosensitive users**. Use with caution.
+---
+
+## Documentation 
+
+- For more docs: [report] (./fnaf.pdf)
