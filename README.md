@@ -1,4 +1,4 @@
-# 🎮 One Night at ECEB - An FPGA Video Game
+# One Night at ECEB - An FPGA Video Game
 
 **FPGA Video Game inspired by Five Nights at Freddy’s**  
 A playable game implemented on FPGA hardware using VHDL/Verilog.
