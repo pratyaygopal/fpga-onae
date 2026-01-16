@@ -1,6 +1,46 @@
-ONE NIGHT AT ECEB - Pratyay2 and Grigel2
+# 🎮 One Night at ECEB - An FPGA Video Game
 
-In order to run our code, BRAMs will first need to be made and initialized with coe files corresponding to the different sprites/images loaded in our game. To play, first set the five leftmost switches on the FPGA board to choose a seed. This seed generates pseudo-random times in which the animatronics spawn in game. The rightmost switch should also be set to enable/disable a popup on the camera. When enabled, this makes the game more difficult but adds in flashing rainbow lights that should not be used if the player is photosensitive. The project should be launched in Vivado and Vitis and ran there in order to play the game.
+**FPGA Video Game inspired by Five Nights at Freddy’s**  
+A playable game implemented on FPGA hardware using VHDL/Verilog.
 
-Youtube Video: https://www.youtube.com/watch?v=f_VWFFdSquA
-Showcase Demo: https://www.youtube.com/watch?v=XwT2aaFxlOU  at around 11 minutes
+---
+
+## Overview
+
+One Night at ECEB is an FPGA-based video game project developed using **Vivado**, **Vitis**, and HDL languages. The game runs on an FPGA board, using switch inputs for gameplay mechanics and on-board BRAM to store sprite imagery.
+
+The gameplay simulates randomized animatronic spawns based on a user-selected seed — similar in spirit to classic survival horror mechanics. This repository contains the full project source for hardware design, simulations, and game assets.
+
+---
+
+## Demos
+
+- **YouTube Playthrough:** https://www.youtube.com/watch?v=f_VWFFdSquA  
+- **Showcase Demo:** https://www.youtube.com/watch?v=XwT2aaFxlOU
+
+---
+
+## Features
+
+- FPGA implementation of a video game  
+- Pseudo-randomized gameplay using hardware switches  
+- Optional visual effects toggle (rainbow flash mode)  
+- Complete Vivado & Vitis project source included
+
+---
+
+## Methodology
+
+-  **BRAM Initialization**  
+   Before running the game, you must generate and initialize BRAMs with COE files for all sprites/images.
+
+-  **Gameplay Inputs**
+   - Set the **five leftmost switches** on your FPGA board to choose a seed value.  
+   - Set the **rightmost switch** to enable/disable the camera popup (affects difficulty and visual effects).
+
+-  **Launch Environment**
+   - Open the project in **Vivado** and **Vitis**.
+   - Program and run on the target FPGA board.
+
+-  **Visual Mode**
+   - The “flashy rainbow lights” mode makes the game harder and **may trigger photosensitive users**. Use with caution.
