@@ -20,6 +20,12 @@ The gameplay simulates randomized animatronic spawns based on a user-selected se
 
 ---
 
+## Documentation 
+
+- For more docs: [report](./fnaf.pdf)
+
+---
+
 ## Features
 
 - FPGA implementation of a video game  
@@ -42,8 +48,4 @@ The gameplay simulates randomized animatronic spawns based on a user-selected se
    - Open the project in **Vivado** and **Vitis**.
    - Program and run on the target FPGA board.
 
----
 
-## Documentation 
-
-- For more docs: [report](./fnaf.pdf)
